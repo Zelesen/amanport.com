@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Maurya - portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/00b2e9f8b6.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="ampng.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-regular fa-bars" onclick="openmenu()"></i>                        </nav>
+            <div class="header-text">
+                <p></p>
+                <h1 >Hi, I'm <span>Aman</span>, <br>Software Developer.<br> </h1>
+            </div>
+        </div>
+    </div>
+
+    <!--ABOUT-->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="me.jpg">
+                </div>
+                <div class="about-col-1">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> I am Aman Maurya a Committed and goal-oriented information technology student looking to
+                        pursue a career in the software engineering and research domain.
+                        Possess excellent knowledge in Python, Web Development and
+                        Data Structures. Learning AI to ingest huge amount of data and
+                        making things easier. Ability to learn things quickly and capable of
+                        working in a fast-paced and team-driven environment.
+                        </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Artificial Intelligence</span><br>advance AI knowledge</li>
+                            <li><span>c++</span><br>advance c,c++ and OOBJ</li>
+                            <li><span>software developer</span><br>motion detector and other software</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Artificial Intelligence</span><br>Advance desktop AI using voice asst.</li>
+                            <li><span>Web Development</span><br>Built frontend & designed layouts</li>
+                            <li><span>motion detector</span><br>craeted a motion detector for house security</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Undergraduation</span><br>Pursuing information technology</li>
+                            <li><span>Higher Secondary</span><br>Physics, Chemistry, Mathematics Majors</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--    --services--    -->
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>software Development</h2>
+                    <p>software Development services include everuthing related to building app-based solution - whether it is a simple application or a complex web application. Work on making apps intutive to use, optimized for moblie devices and search engines matching the latest trends.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-database"></i>                    <h2>web development</h2>
+                    <p>Basic web development services include creating a website with designer and interactive responses all according to the given requierments.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>                    <h2>Moblie Applications </h2>
+                    <p>Creating all sorts of mobile applications or software development and delivering with all sort of testing, re-designable and interactive all by requierments.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--       Protfolio            -->
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="database1.jpg">
+                    <div class="layer">
+                        <h3>Artificial Intelligence</h3>
+                        <p>Prepared desktop assitent model which collects information from different data sources along through voice and delivers appropriate response. Tested prediction approach on the datasheet using machine and deep
+                            learning libraries after cleaning and analyzing the data and received an accuracy of 87%.</p>
+                        <a href="https://github.com/Zelesen/Desktop_Assistant"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="web3.jpg">
+                    <div class="layer">
+                        <h3>Web Development</h3>
+                        <p>Coded Online food delivery website using Basic web Development. Along with practicing development skills creating personal Portfolio.
+                        </p>
+                        <a href="https://github.com/Zelesen/amanport.com"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="design1.jpg">
+                    <div class="layer">
+                        <h3>Motion Detector</h3>
+                        <p>Created a software which detects motions based on security services which detects body motions only.                        </p>
+                        <a href="https://github.com/Zelesen/motion-detector"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see-more</a>
+        </div>
+    </div>
+
+
+    <!--          contact            -->
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>amanmaurya917@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>9766589346</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Zelesen" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/aman_m._?igsh=azA0eGIyd3kzNmh6" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/aman-m-031990242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="CV1.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        
+        var sidemenu = document.getElementById("sidemenu");
+        
+        function openmenu()
+        {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu()
+        {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbyvrnBbCPgoi4f3kHISUSNPryqAYvuQagcXvTPjcN6XzyoAeWMXApCJ6G0HaZM8njjj_Q/exec'
+      const form = document.forms['submit-to-google-sheet']
+  
+    
+			form.addEventListener('submit', e => {
+			  e.preventDefault()
+			  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+				.then(response => alert("Thank you! your form is submitted successfully." ))
+				.then(() => {  window.location.reload(); })
+				.catch(error => console.error('Error!', error.message))
+			})
+    </script>
+
+</body>
+
+</html>
